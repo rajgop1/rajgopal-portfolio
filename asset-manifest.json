@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rajgopal-portfolio/static/css/main.ec659aad.css",
+    "main.js": "/rajgopal-portfolio/static/js/main.d8d01d9f.js",
+    "static/media/resume.pdf": "/rajgopal-portfolio/static/media/resume.e84dfa56899e7cb85ad2.pdf",
+    "static/media/react.png": "/rajgopal-portfolio/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/myphoto4.jpeg": "/rajgopal-portfolio/static/media/myphoto4.aa44f4a3416934847703.jpeg",
+    "static/media/myPhoto.jpg": "/rajgopal-portfolio/static/media/myPhoto.833580afe6c4b00219b9.jpg",
+    "static/media/myphoto5.jpeg": "/rajgopal-portfolio/static/media/myphoto5.c16b7a805a2d8b44d29f.jpeg",
+    "static/media/myphoto3.jpeg": "/rajgopal-portfolio/static/media/myphoto3.c2d42fffa1020a7a1767.jpeg",
+    "static/media/myphoto1.jpeg": "/rajgopal-portfolio/static/media/myphoto1.6b0b7a323579de417bd9.jpeg",
+    "static/media/myphoto2.jpeg": "/rajgopal-portfolio/static/media/myphoto2.90d1a90a2042428bbe16.jpeg",
+    "static/media/my_photo_back.jpeg": "/rajgopal-portfolio/static/media/my_photo_back.958f9d44f06c42f00680.jpeg",
+    "static/media/html.png": "/rajgopal-portfolio/static/media/html.bba1066a6418209ce46d.png",
+    "static/media/css.png": "/rajgopal-portfolio/static/media/css.3c0dec34d2e7698e76fa.png",
+    "static/media/js.png": "/rajgopal-portfolio/static/media/js.8cb07e0d9b78515606ae.png",
+    "index.html": "/rajgopal-portfolio/index.html",
+    "main.ec659aad.css.map": "/rajgopal-portfolio/static/css/main.ec659aad.css.map",
+    "main.d8d01d9f.js.map": "/rajgopal-portfolio/static/js/main.d8d01d9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec659aad.css",
+    "static/js/main.d8d01d9f.js"
+  ]
+}

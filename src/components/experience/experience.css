@@ -1,0 +1,50 @@
+.experience{
+    min-height: 100vh;
+}
+.experience-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    min-height: 400px;
+
+    gap: 20px;
+}
+
+.experience-container>*{
+    padding:20px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--color-bg-variant);
+    border-radius: 10px;
+    
+    backdrop-filter: blur(10px);
+
+    box-shadow: 3px 2px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    color: rgba(187, 197, 224, 0.753);
+}
+.tech-icon{
+    color: rgb(153, 248, 153);
+}
+.experience-container h2{
+    color:white;
+    margin-bottom: 20px;
+}
+.experience-container>*:hover{
+    background-color: rgba(28, 54, 110, 0.212);
+    cursor: pointer;
+    color: rgba(240, 248, 255, 0.781);
+}
+.tech-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    font-size: 2rem;
+    
+}

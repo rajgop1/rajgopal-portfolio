@@ -1,0 +1,159 @@
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+.card{
+
+    position: relative;
+    width: 300px;
+
+height: 400px;
+    transform-style: preserve-3d; 
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: transform 1s;
+    background-color: rgba(199, 200, 251, 0.815);
+    backdrop-filter: blur(10px);
+}
+.card:hover{
+    transform: translateX(50%);
+}
+
+.card .details{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    top: 0;
+    left: 0;
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.card .details .content h2{
+    text-align: center;
+    font-weight: 600;
+    line-height: 1em;
+}
+.card .details .content h2 span{
+    color: rgb(36, 87, 228);
+    font-weight: 600;
+    line-height: 1em;
+    font-size: 0.8em;
+}
+.profile-photo-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    transition: 1s;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background: black;
+}
+.card:hover .profile-photo-container{
+    transform: rotateY(-180deg);
+}
+.profile-photo-container img{
+    position: absolute;
+    height: 100%;
+    
+    backface-visibility: hidden;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+ 
+    
+    top:0;
+    left:0;
+}
+.img-back{
+    transform: rotateY(180deg);
+    object-fit: cover;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+.social-icons>a{
+    background-color: black;
+    padding:  10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 2px;
+}
+.social-icons>a:hover{
+    background-color:rgb(238, 62, 62) ;
+
+    color: white;
+    margin: 2px;
+}
+.cv,.talk{
+    padding: 1em 2em;
+    margin: 0px 5px;
+    margin-bottom: 20px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration: none;
+}
+.cv:hover,.talk:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+    
+    color: var(--color-bg);
+}
+.cv{
+    background: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary-variant);
+}
+.talk{
+    background-color: var(--color-primary-variant);
+    color: var(--color-bg);
+    border: 2px solid transparent;
+}
+.layer{
+    position: absolute;
+    height: 100px;
+}
+.layer:nth-child(1)
+{
+    top:100px;
+    left: 20%;
+}
+.layer:nth-child(2)
+{
+    top:300px;
+    left:25%;
+}
+.layer:nth-child(3)
+{
+    bottom:80px;
+    right:30%;
+}
+.layer:nth-child(4)
+{
+    top:200px;
+    right:20%;
+}

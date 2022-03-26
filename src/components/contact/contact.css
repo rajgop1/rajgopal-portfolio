@@ -1,0 +1,101 @@
+.contact{
+    height: 100vh;
+    
+}
+.contact-card{
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+}
+.contact-left-container{
+    font-size: 1.3rem;
+
+}
+.contact-card a{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-bg-variant);
+    
+    border-radius: 10px;
+    font-size: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-container>*{
+    padding:20px;
+}
+a > h3{
+    font-size: 1.5rem;
+}
+.contact-card > a:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+    
+}
+
+.contact-left{
+    flex:1;
+}
+.contact-right{
+    flex: 2;
+}
+.contact-right-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact-right-container>*{
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid var(--color-bg-variant);
+    margin: 5px ;
+    border-radius: 5px;
+    color:white
+}
+.contact-right-container>.send-message{
+    background-color: var(--color-bg-variant);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:fit-content;
+}
+.user-details{
+    min-height: 200px;
+    overflow-y: overlay;
+
+}
+.user-details::-webkit-scrollbar{
+    
+}
+.succesful{
+    transform: all 0.5s;
+    font-weight: bold;
+}
+@media screen and (max-width:100px) {
+    .contact-container{
+        flex-direction: column;       
+    }
+    .contact-left-container{
+        display: flex;
+    }
+    .contact-right-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

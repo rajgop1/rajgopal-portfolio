@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "project":"Covid-19 Tracker",
+        "description":"A web application that tracks the number of cases of Covid-19 in the world",
+        "demo":"https://rajgop1.github.io/covid19tracker/",
+        "github":"https://github.com/rajgop1/weather",
+        "image":"https://drive.google.com/uc?export=view&id=1DHLkOCLWu9vJVpD1t69X02fCw5JL4aMS"
+    },
+    
+    {
+        "id":"2",
+        "project":"Personal-Chrome Extension",
+        "description":"A chrome extension that allows you to have a personal chrome dashboard that shows you the crypto-currency, weather, the time, and the date",
+        "github":"https://github.com/rajgop1/chrome-extension",
+        "image":"https://drive.google.com/uc?export=view&id=1HnpqRBnbjOXiDFmeldg1Zq7FCajCndSe"
+    },
+
+    {
+        "id":"3",
+
+        "project":"Computer Coaching Website",
+        "description":"This is a website created for the company i previously worked as a Teacher",
+        "demo":"http://hiltroncalckotdwara.great-site.net/",
+        "github":"https://github.com/rajgop1/hiltroncalcweb",
+        "image":"https://drive.google.com/uc?export=view&id=1H-yshAlkR7aWHKe3zEX-ffYSJYjfUuvp"
+
+    },
+
+    {
+        "id":"4",
+
+        "project":"Weather App",
+        "description":"A web application that shows the weather of a city",
+        "demo":"http://hiltroncalckotdwara.great-site.net/",
+        "github":"https://rajgop1.github.io/weather/",
+        "image":"https://drive.google.com/uc?export=view&id=1o6aB4GX4bB-CKIwIcIXgQ5c_Kya8t5_R"
+
+    }
+
+
+]

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rajgopal-portfolio/static/css/main.ec659aad.css",
-    "main.js": "/rajgopal-portfolio/static/js/main.74a79deb.js",
+    "main.css": "/rajgopal-portfolio/static/css/main.bc769651.css",
+    "main.js": "/rajgopal-portfolio/static/js/main.ef3e9d8c.js",
     "static/media/resume.pdf": "/rajgopal-portfolio/static/media/resume.e84dfa56899e7cb85ad2.pdf",
     "static/media/react.png": "/rajgopal-portfolio/static/media/react.2f2532db663fd5ec5f95.png",
     "static/media/myphoto4.jpeg": "/rajgopal-portfolio/static/media/myphoto4.aa44f4a3416934847703.jpeg",
@@ -15,11 +15,11 @@
     "static/media/css.png": "/rajgopal-portfolio/static/media/css.3c0dec34d2e7698e76fa.png",
     "static/media/js.png": "/rajgopal-portfolio/static/media/js.8cb07e0d9b78515606ae.png",
     "index.html": "/rajgopal-portfolio/index.html",
-    "main.ec659aad.css.map": "/rajgopal-portfolio/static/css/main.ec659aad.css.map",
-    "main.74a79deb.js.map": "/rajgopal-portfolio/static/js/main.74a79deb.js.map"
+    "main.bc769651.css.map": "/rajgopal-portfolio/static/css/main.bc769651.css.map",
+    "main.ef3e9d8c.js.map": "/rajgopal-portfolio/static/js/main.ef3e9d8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec659aad.css",
-    "static/js/main.74a79deb.js"
+    "static/css/main.bc769651.css",
+    "static/js/main.ef3e9d8c.js"
   ]
 }

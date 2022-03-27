@@ -40,6 +40,21 @@
     transform: translateX(-50%);
     z-index: 1;
 }
+@media screen and (max-width:800px) {
+    .links-container {
+        top:20px;
+    }
+    
+    .icon-container{
+        padding: 2px 5px;
+        font-size: 1.3rem;
+        flex-direction: column;
+    }
+    .hide{
+        display: none;
+    }
+
+}
 a{
     color:white;
     text-decoration:none;

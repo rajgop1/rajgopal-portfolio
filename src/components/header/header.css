@@ -6,6 +6,7 @@
     flex-direction: column;
     position: relative;
 }
+
 .card{
 
     position: relative;
@@ -63,6 +64,12 @@ height: 400px;
     transform-style: preserve-3d;
     background: black;
 }
+@media screen and (max-width:600px) {
+    .card{
+        width: 200px;
+        height: 300px;
+    }    
+}
 .card:hover .profile-photo-container{
     transform: rotateY(-180deg);
 }
@@ -117,6 +124,19 @@ height: 400px;
     font-weight: bolder;
     display: inline-block;
     text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .cv,.talk{
+        padding: 0.5em 1em;
+        margin: 0px 5px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        font-weight: bolder;
+        display: inline-block;
+        text-decoration: none;
+    }
 }
 .cv:hover,.talk:hover{
     background-color: rgba(255, 255, 255, 0.849);

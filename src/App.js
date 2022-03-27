@@ -7,7 +7,7 @@ import Nav from "./components/nav/nav"
 import Contact from "./components/contact/contact"
 import Project  from "./components/projects/projects"
 
-
+import Canvas from "./components/Canvas/Canvas"
 function App() {
 
     const [active, setActive] = React.useState("#");
@@ -26,7 +26,7 @@ function App() {
             <Project/>
             <Experience/>
             <Contact clickHandler={clickHandler}/>
-
+            <Canvas/>
 
 
         </React.Fragment>

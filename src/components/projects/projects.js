@@ -18,7 +18,7 @@ function projects() {
           </div>
       </div>
       <div className='project-links'>
-        <a href={project.github} target="_blank" className='github'>Github</a>
+        {project.github && <a href={project.github} target="_blank" className='github'>Github</a>}
         {project.demo && <a className='demo' target="_blank" href={project.demo}>Demo</a>}
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react"
-import "./app.css"
+import "./App.css"
 import About from "./components/about/about"
 import Experience from "./components/experience/experience"
 import Header from "./components/header/header"

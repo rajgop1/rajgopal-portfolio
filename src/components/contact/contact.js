@@ -18,7 +18,7 @@ function Contact() {
   const form = useRef()
   function sendEmail(e) {
     e.preventDefault()
-    emailjs.sendForm("service_4s5xhlj", "template_cbzl8fq", form.current, "Hy0j9urPfNGQJv6Y1").then(()=>{
+    emailjs.sendForm("service_tsd7zp7", "template_cbzl8fq", form.current, "Hy0j9urPfNGQJv6Y1").then(()=>{
     
       setSubmitted(true)
       setFormData({ name: "", email: "", message: "" })
@@ -46,7 +46,7 @@ function Contact() {
               </a>
             </div>
             <div className='contact-card'>
-              <a href="https://api.whatsapp.com/send?phone=919027619524" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=917302433910" target="_blank">
                 <FaWhatsapp />
                 <h3>Whatsapp</h3>
               </a>

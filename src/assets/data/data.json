@@ -1,4 +1,26 @@
 [
+    
+    {
+        "id":"1",
+        "project":"Kalagato Website",
+        "description":"Developed Kalgato’s main website using Angular 13, SCSS, and Strapi for CMS. Hosted CMS on AWS EC2 with GitHub Actions for CI/CD. Utilized Scully for Static Site Generation (SSG) and hosted on AWS S3 with CDN for performance optimization",
+        "demo":"https://kalagato.ai/",
+        "image":"https://drive.google.com/uc?export=view&id=1ByqOPj1m3Hzwar0GHw-Ugu529Z94KH36"
+    },
+    {
+        "id": "2",
+        "project": "Multibagger Investments (Financial Advisory ) ",
+        "description": "Multibagger Investments is a forward-thinking, mobile-responsive website dedicated to providing insightful financial advisory services globally. Built with Next.js for its dynamic frontend capabilities and Strapi CMS for efficient content management, this platform ensures optimal performance and accessibility for users across devices.",
+        "demo": "https://multibaggerinvestments.in/",
+        "image": "https://drive.google.com/file/d/1njFmTnvlRHWYllVWhwMb9r4K63HjEPV_/view?usp=drive_link"
+    },
+    {
+        "id":"3",
+        "project":"Personal-Chrome Extension",
+        "description":"A chrome extension that allows you to have a personal chrome dashboard that shows you the crypto-currency, weather, the time, and the date",
+        "github":"https://github.com/rajgop1/chrome-extension",
+        "image":"https://drive.google.com/uc?export=view&id=1HnpqRBnbjOXiDFmeldg1Zq7FCajCndSe"
+    },
     {
         "id":"1",
         "project":"Covid-19 Tracker",
@@ -9,27 +31,7 @@
     },
     
     {
-        "id":"2",
-        "project":"Personal-Chrome Extension",
-        "description":"A chrome extension that allows you to have a personal chrome dashboard that shows you the crypto-currency, weather, the time, and the date",
-        "github":"https://github.com/rajgop1/chrome-extension",
-        "image":"https://drive.google.com/uc?export=view&id=1HnpqRBnbjOXiDFmeldg1Zq7FCajCndSe"
-    },
-
-    {
-        "id":"3",
-
-        "project":"Computer Coaching Website",
-        "description":"This is a website created for the company i previously worked as a Teacher",
-        "demo":"http://hiltroncalckotdwara.great-site.net/",
-        "github":"https://github.com/rajgop1/hiltroncalcweb",
-        "image":"https://drive.google.com/uc?export=view&id=1H-yshAlkR7aWHKe3zEX-ffYSJYjfUuvp"
-
-    },
-
-    {
-        "id":"4",
-
+        "id":"5",
         "project":"Weather App",
         "description":"A web application that shows the weather of a city",
         "demo":"https://rajgop1.github.io/weather/",
@@ -37,6 +39,5 @@
         "image":"https://drive.google.com/uc?export=view&id=1o6aB4GX4bB-CKIwIcIXgQ5c_Kya8t5_R"
 
     }
-
-
 ]
+
